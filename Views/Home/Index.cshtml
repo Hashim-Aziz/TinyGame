@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Play";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>*@
+
+<div class="mainDiv container">
+
+      <div id="slidingDiv" class="slideDiv">
+       
+    </div>
+
+    <button class="blueDiv colorDiv posPad">
+        Blue
+    </button>
+    <button class="redDiv colorDiv posPad">
+        Red
+    </button>
+    <button class="yellowDiv colorDiv posPad">
+        Yellow
+    </button>
+    <button class="greenDiv colorDiv posPad">
+        Green
+    </button>
+
+    <div class="scoreDiv">
+        <strong>Score: <span id="scoreSpan">0</span></strong>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="EndModal" tabindex="-1" role="dialog" aria-labelledby="EndModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="EndModalTitle">Score Card</h5>
+      </div>
+      <div class="modal-body">
+        Your score is <strong><span id="ModalScoreSpan"></span></strong>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="ReplayGameBtn">Replay</button>
+      </div>
+    </div>
+  </div>
+</div>

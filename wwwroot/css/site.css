@@ -1,0 +1,103 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.blueDiv {
+    top: 0;
+    left: 0;
+    /*position: absolute;*/
+    /*padding: 64px;*/
+    background: skyblue;
+}
+
+.redDiv {
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    /*padding: 64px;*/
+    background: red;
+}
+
+.yellowDiv {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    /*padding: 64px;*/
+    background: yellow;
+}
+
+
+.mainDiv {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.greenDiv {
+    /*position: absolute;*/
+    bottom: 0;
+    right: 0;
+    /*padding: 64px;*/
+    background: darkseagreen;
+}
+
+.posPad {
+    position: absolute;
+    padding: 64px;
+}
+
+.scoreDiv {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.remove-animation {
+    animation: none !important;
+}
+
+.paused {
+    -webkit-animation-play-state: paused !important;
+    -moz-animation-play-state: paused !important;
+    -o-animation-play-state: paused !important;
+    animation-play-state: paused !important;
+}
+
+.slideDiv {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 0;
+    animation: myslidingdiv 8s infinite;
+    animation-delay: 1s;
+    /*left:50%;*/
+    /* margin-left:50%;*/
+}
+
+
+
+@keyframes myslidingdiv {
+    to {
+        top: 97vh;
+    }
+}

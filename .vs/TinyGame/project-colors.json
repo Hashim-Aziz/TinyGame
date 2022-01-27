@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d2dbe807-40fd-42d1-95c1-0be1f6ad4b36": {
+      "ProjectGuid": "d2dbe807-40fd-42d1-95c1-0be1f6ad4b36",
+      "DisplayName": "TinyGame",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
